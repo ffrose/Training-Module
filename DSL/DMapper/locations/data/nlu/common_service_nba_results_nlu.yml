@@ -1,6 +1,6 @@
 version: "3.0"
 nlu:
-- intent: nba_results
+- intent: common_service_nba_results
   examples: |
     - Mis olid viimaste mängude tulemused NBA-s?
     - Kas sa tead viimaseid skooritulemusi NBA-s?

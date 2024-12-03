@@ -15,6 +15,7 @@ intents:
   - common_teenus_nordpool
   - common_teenus_nordpool2
   - common_teenus_nordpool3
+  - common_service_nba_results
 
 entities:
   - asukoht
@@ -92,3 +93,6 @@ responses:
 
   utter_common_teenus_nordpool3:
   - text: "#nordpool3;"
+
+  utter_common_service_nba_results:
+  - text: "#common_service, /GET/sports/nba-results"
